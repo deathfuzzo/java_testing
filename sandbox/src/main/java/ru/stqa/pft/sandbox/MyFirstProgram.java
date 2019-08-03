@@ -4,7 +4,8 @@ public class MyFirstProgram {
 
 
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+        String something = "world" + "!";
+        System.out.println("Hello, "+ something +"!");
 
 
     }
