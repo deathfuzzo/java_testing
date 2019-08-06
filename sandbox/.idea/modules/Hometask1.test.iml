@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="Hometask1:test" external.linked.project.path="$MODULE_DIR$/../../Hometask1" external.root.project.path="$MODULE_DIR$/../../Hometask1" external.system.id="GRADLE" external.system.module.group="" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../Hometask1" rootProjectPath="$MODULE_DIR$/../../Hometask1" />
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output-test url="file://$MODULE_DIR$/../../Hometask1/build/classes/java/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../Hometask1/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../Hometask1/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Hometask1/src/test/resources" type="java-test-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Hometask1.main" />
+  </component>
+  <component name="TestModuleProperties" production-module="Hometask1.main" />
+</module>
