@@ -1,10 +1,10 @@
 apply plugin: 'java'
-apply plugin: 'application'
-mainClassName = "ru.stqa.pft.sandbox.MyFirstProgram"
+
     repositories {
         mavenCentral()
         }
     dependencies {
-        implementation 'org.testng:testng:7.0.0'
+        implementation 'org.testng:testng:7.0.0-beta7'
         implementation 'org.openqa.selenium:selenium-rc:1.0-20081010.060147'
+        compile group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version: '4.0.0-alpha-2'
     }
