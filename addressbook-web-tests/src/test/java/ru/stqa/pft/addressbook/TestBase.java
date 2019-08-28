@@ -10,13 +10,17 @@ import org.testng.annotations.BeforeMethod;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TestBase {
+public class TestBase extends ApplicationManager {
   JavascriptExecutor js;
   protected WebDriver driver;
   protected Map<String, Object> vars;
 
   @BeforeMethod //метод инициализации фикстуры ("фиксации" тестового метода)
   public void setUp() {
+    init();
+  }
+
+  private void init() {
     driver = new FirefoxDriver();
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
@@ -56,6 +60,10 @@ public class TestBase {
 
   @AfterMethod //метод завершения фикстуры ("фиксации" тестового метода)
   public void tearDown() {
+    stop();
+  }
+
+  private void stop() {
     driver.quit();
   }
 
